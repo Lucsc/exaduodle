@@ -23,7 +23,7 @@ export const ENTITIES = [
     gender: "Femme",
     salary: "++",
     role: "CDI",
-    photo: "colleaguescaroline.png",
+    photo: "colleagues/caroline.png",
   },
   {
     id: 3,

@@ -242,8 +242,8 @@ export const PICTURES = [
         name: "Zeineb",
         variations: [
             {
-                dark: "zoomzeinebzeineb_background_dark.png",
-                clear: "zoomzeinebzeineb_background_clear.png",
+                dark: "zoom/zeineb/zeineb_background_dark.png",
+                clear: "zoom/zeineb/zeineb_background_clear.png",
             },
         ],
     },
