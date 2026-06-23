@@ -56,7 +56,7 @@ export const EMOJIS = [
     {
         id: 10,
         name: "Ludovic",
-        emojiSimple: ["🏈", "🤑", "🐟"],
+        emojiSimple: ["🏈", "🤑", "🐟", "🍈", "🎾"],
         emojiCompliquer: ["🩼", "💔", "🚬"],
     },
     {
@@ -80,7 +80,7 @@ export const EMOJIS = [
     {
         id: 14,
         name: "Olivier",
-        emojiSimple: ["🚲", "🪴", "🤑", "🐟"],
+        emojiSimple: ["🚲", "🪴", "🤑", "🐟", "🍈", "🎾"],
         emojiCompliquer: ["🩼", "🚗", "🚬", "⛷️"],
     },
     {
