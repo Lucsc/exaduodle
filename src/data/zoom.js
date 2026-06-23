@@ -4,8 +4,8 @@ export const PICTURES = [
         name: "Alexandre",
         variations: [
             {
-                dark: "/zoom/alex/alex_background_dark.png",
-                clear: "/zoom/alex/alex_background_clear.png",
+                dark: "zoom/alex/alex_background_dark.png",
+                clear: "zoom/alex/alex_background_clear.png",
             },
         ],
     },
@@ -14,8 +14,8 @@ export const PICTURES = [
         name: "Caroline",
         variations: [
             {
-                dark: "/zoom/caroline/caroline_background_dark.png",
-                clear: "/zoom/caroline/caroline_background_clear.png",
+                dark: "zoom/caroline/caroline_background_dark.png",
+                clear: "zoom/caroline/caroline_background_clear.png",
             },
         ],
     },
@@ -24,12 +24,12 @@ export const PICTURES = [
         name: "Didier",
         variations: [
             {
-                dark: "/zoom/didier/didier_background_dark.png",
-                clear: "/zoom/didier/didier_background_clear.png",
+                dark: "zoom/didier/didier_background_dark.png",
+                clear: "zoom/didier/didier_background_clear.png",
             },
             {
-                dark: "/zoom/didier/didier_exaduo_black.png",
-                clear: "/zoom/didier/didier_exaduo_clear.png",
+                dark: "zoom/didier/didier_exaduo_black.png",
+                clear: "zoom/didier/didier_exaduo_clear.png",
             },
         ],
     },
@@ -38,8 +38,8 @@ export const PICTURES = [
         name: "Edgar",
         variations: [
             {
-                dark: "/zoom/edgar/Edgar_exaduo_black.png",
-                clear: "/zoom/edgar/Edgar_exaduo_clear.png",
+                dark: "zoom/edgar/Edgar_exaduo_black.png",
+                clear: "zoom/edgar/Edgar_exaduo_clear.png",
             },
         ],
     },
@@ -48,8 +48,8 @@ export const PICTURES = [
         name: "Grégory",
         variations: [
             {
-                dark: "/zoom/greg/Greg_exaduo_black.png",
-                clear: "/zoom/greg/Greg_exaduo_clear.png",
+                dark: "zoom/greg/Greg_exaduo_black.png",
+                clear: "zoom/greg/Greg_exaduo_clear.png",
             },
         ],
     },
@@ -58,16 +58,16 @@ export const PICTURES = [
         name: "Hervé",
         variations: [
             {
-                dark: "/zoom/herve/herve_background_dark.png",
-                clear: "/zoom/herve/herve_background_clear.png",
+                dark: "zoom/herve/herve_background_dark.png",
+                clear: "zoom/herve/herve_background_clear.png",
             },
             {
-                dark: "/zoom/herve/herve_background_dark_1.png",
-                clear: "/zoom/herve/herve_background_clear_1.png",
+                dark: "zoom/herve/herve_background_dark_1.png",
+                clear: "zoom/herve/herve_background_clear_1.png",
             },
             {
-                dark: "/zoom/herve/herve_background_dark_2.png",
-                clear: "/zoom/herve/herve_background_clear_2.png",
+                dark: "zoom/herve/herve_background_dark_2.png",
+                clear: "zoom/herve/herve_background_clear_2.png",
             },
         ],
     },
@@ -76,20 +76,20 @@ export const PICTURES = [
         name: "Loreleï",
         variations: [
             {
-                dark: "/zoom/lorelei/lorelei_background_dark.png",
-                clear: "/zoom/lorelei/lorelei_background_clear.png",
+                dark: "zoom/lorelei/lorelei_background_dark.png",
+                clear: "zoom/lorelei/lorelei_background_clear.png",
             },
             {
-                dark: "/zoom/lorelei/lorelei_background_dark_1.png",
-                clear: "/zoom/lorelei/lorelei_background_clear_1.png",
+                dark: "zoom/lorelei/lorelei_background_dark_1.png",
+                clear: "zoom/lorelei/lorelei_background_clear_1.png",
             },
             {
-                dark: "/zoom/lorelei/lorelei_background_dark_2.png",
-                clear: "/zoom/lorelei/lorelei_background_clear_2.png",
+                dark: "zoom/lorelei/lorelei_background_dark_2.png",
+                clear: "zoom/lorelei/lorelei_background_clear_2.png",
             },
             {
-                dark: "/zoom/lorelei/lorelei_background_dark_3.png",
-                clear: "/zoom/lorelei/lorelei_background_clear_3.png",
+                dark: "zoom/lorelei/lorelei_background_dark_3.png",
+                clear: "zoom/lorelei/lorelei_background_clear_3.png",
             },
         ],
     },
@@ -98,16 +98,16 @@ export const PICTURES = [
         name: "Luc",
         variations: [
             {
-                dark: "/zoom/luc/luc_background_dark.png",
-                clear: "/zoom/luc/luc_background_clear.png",
+                dark: "zoom/luc/luc_background_dark.png",
+                clear: "zoom/luc/luc_background_clear.png",
             },
             {
-                dark: "/zoom/luc/luc_background_dark_1.png",
-                clear: "/zoom/luc/luc_background_clear_1.png",
+                dark: "zoom/luc/luc_background_dark_1.png",
+                clear: "zoom/luc/luc_background_clear_1.png",
             },
             {
-                dark: "/zoom/luc/luc_background_dark_2.png",
-                clear: "/zoom/luc/luc_background_clear_2.png",
+                dark: "zoom/luc/luc_background_dark_2.png",
+                clear: "zoom/luc/luc_background_clear_2.png",
             },
         ],
     },
@@ -116,12 +116,12 @@ export const PICTURES = [
         name: "Ludovic",
         variations: [
             {
-                dark: "/zoom/ludo/ludo_exaduo_dark.png",
-                clear: "/zoom/ludo/ludo_exaduo_clear.png",
+                dark: "zoom/ludo/ludo_exaduo_dark.png",
+                clear: "zoom/ludo/ludo_exaduo_clear.png",
             },
             {
-                dark: "/zoom/ludo/ludo_background_dark_2.png",
-                clear: "/zoom/ludo/ludo_background_clear_2.png",
+                dark: "zoom/ludo/ludo_background_dark_2.png",
+                clear: "zoom/ludo/ludo_background_clear_2.png",
             },
         ],
     },
@@ -130,8 +130,8 @@ export const PICTURES = [
         name: "Maria",
         variations: [
             {
-                dark: "/zoom/maria/maria_background_dark.png",
-                clear: "/zoom/maria/maria_background_clear.png",
+                dark: "zoom/maria/maria_background_dark.png",
+                clear: "zoom/maria/maria_background_clear.png",
             },
         ],
     },
@@ -140,12 +140,12 @@ export const PICTURES = [
         name: "Maxime",
         variations: [
             {
-                dark: "/zoom/maxime/maxime_background_dark.png",
-                clear: "/zoom/maxime/maxime_background_clear.png",
+                dark: "zoom/maxime/maxime_background_dark.png",
+                clear: "zoom/maxime/maxime_background_clear.png",
             },
             {
-                dark: "/zoom/maxime/maxime_background_dark_2.png",
-                clear: "/zoom/maxime/maxime_background_clear_2.png",
+                dark: "zoom/maxime/maxime_background_dark_2.png",
+                clear: "zoom/maxime/maxime_background_clear_2.png",
             },
         ],
     },
@@ -154,20 +154,20 @@ export const PICTURES = [
         name: "Nathan",
         variations: [
             {
-                dark: "/zoom/nathan/nathan_background_dark.png",
-                clear: "/zoom/nathan/nathan_background_clear.png",
+                dark: "zoom/nathan/nathan_background_dark.png",
+                clear: "zoom/nathan/nathan_background_clear.png",
             },
             {
-                dark: "/zoom/nathan/nathan_background_dark_1.png",
-                clear: "/zoom/nathan/nathan_background_clear_1.png",
+                dark: "zoom/nathan/nathan_background_dark_1.png",
+                clear: "zoom/nathan/nathan_background_clear_1.png",
             },
             {
-                dark: "/zoom/nathan/nathan_background_dark_2.png",
-                clear: "/zoom/nathan/nathan_background_clear_2.png",
+                dark: "zoom/nathan/nathan_background_dark_2.png",
+                clear: "zoom/nathan/nathan_background_clear_2.png",
             },
             {
-                dark: "/zoom/nathan/nathan_background_dark_3.png",
-                clear: "/zoom/nathan/nathan_background_clear_3.png",
+                dark: "zoom/nathan/nathan_background_dark_3.png",
+                clear: "zoom/nathan/nathan_background_clear_3.png",
             },
         ],
     },
@@ -176,12 +176,12 @@ export const PICTURES = [
         name: "Olivier",
         variations: [
             {
-                dark: "/zoom/olivier/olivier_background_dark.png",
-                clear: "/zoom/olivier/olivier_background_clear.png",
+                dark: "zoom/olivier/olivier_background_dark.png",
+                clear: "zoom/olivier/olivier_background_clear.png",
             },
             {
-                dark: "/zoom/olivier/olivier_exaduo_black.png",
-                clear: "/zoom/olivier/olivier_exaduo_clear.png",
+                dark: "zoom/olivier/olivier_exaduo_black.png",
+                clear: "zoom/olivier/olivier_exaduo_clear.png",
             },
         ],
     },
@@ -190,8 +190,8 @@ export const PICTURES = [
         name: "Sandra",
         variations: [
             {
-                dark: "/zoom/sandra/Sandra_exaduo_black.png",
-                clear: "/zoom/sandra/Sandra_exaduo_clear.png",
+                dark: "zoom/sandra/Sandra_exaduo_black.png",
+                clear: "zoom/sandra/Sandra_exaduo_clear.png",
             },
         ],
     },
@@ -200,12 +200,12 @@ export const PICTURES = [
         name: "Theo",
         variations: [
             {
-                dark: "/zoom/theo/theo_background_dark.png",
-                clear: "/zoom/theo/theo_background_clear.png",
+                dark: "zoom/theo/theo_background_dark.png",
+                clear: "zoom/theo/theo_background_clear.png",
             },
             {
-                dark: "/zoom/theo/theo_background_dark_1.png",
-                clear: "/zoom/theo/theo_background_clear_1.png",
+                dark: "zoom/theo/theo_background_dark_1.png",
+                clear: "zoom/theo/theo_background_clear_1.png",
             }
         ],
     },
@@ -214,12 +214,12 @@ export const PICTURES = [
         name: "Théresia",
         variations: [
             {
-                dark: "/zoom/theresia/theresia_background_dark.png",
-                clear: "/zoom/theresia/theresia_background_clear.png",
+                dark: "zoom/theresia/theresia_background_dark.png",
+                clear: "zoom/theresia/theresia_background_clear.png",
             },
             {
-                dark: "/zoom/theresia/theresia_background_dark_2.png",
-                clear: "/zoom/theresia/theresia_background_clear_2.png",
+                dark: "zoom/theresia/theresia_background_dark_2.png",
+                clear: "zoom/theresia/theresia_background_clear_2.png",
             },
         ],
     },
@@ -228,12 +228,12 @@ export const PICTURES = [
         name: "Wassim",
         variations: [
             {
-                dark: "/zoom/wassim/Wassim_background_black.png",
-                clear: "/zoom/wassim/Wassim_background_clear.png",
+                dark: "zoom/wassim/Wassim_background_black.png",
+                clear: "zoom/wassim/Wassim_background_clear.png",
             },
             {
-                dark: "/zoom/wassim/wassim_background_dark_1.png",
-                clear: "/zoom/wassim/wassim_background_clear_1.png",
+                dark: "zoom/wassim/wassim_background_dark_1.png",
+                clear: "zoom/wassim/wassim_background_clear_1.png",
             },
         ],
     },
@@ -242,8 +242,8 @@ export const PICTURES = [
         name: "Zeineb",
         variations: [
             {
-                dark: "/zoom/zeineb/zeineb_background_dark.png",
-                clear: "/zoom/zeineb/zeineb_background_clear.png",
+                dark: "zoomzeinebzeineb_background_dark.png",
+                clear: "zoomzeinebzeineb_background_clear.png",
             },
         ],
     },

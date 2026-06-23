@@ -8,7 +8,7 @@ export function Header() {
     <header className="header">
       <div className="header__logo">
         <div className="header__logo-mark">
-          <img className="header__logo-img" src="/favicon.svg" alt="Exaduo logo" />
+          <img className="header__logo-img" src="favicon.svg" alt="Exaduo logo" />
         </div>
         <span className="header__title">Exaduodle</span>
       </div>

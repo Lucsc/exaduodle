@@ -10,7 +10,7 @@ export const ENTITIES = [
     gender: "Homme",
     salary: "+++",
     role: "CDI",
-    photo: "/colleagues/alexandre.png",
+    photo: "colleagues/alexandre.png",
   },
   {
     id: 2,
@@ -23,7 +23,7 @@ export const ENTITIES = [
     gender: "Femme",
     salary: "++",
     role: "CDI",
-    photo: "/colleagues/caroline.png",
+    photo: "colleaguescaroline.png",
   },
   {
     id: 3,
@@ -36,7 +36,7 @@ export const ENTITIES = [
     gender: "Homme",
     salary: "+++",
     role: "CDI",
-    photo: "/colleagues/didier.png",
+    photo: "colleagues/didier.png",
   },
   {
     id: 4,
@@ -49,7 +49,7 @@ export const ENTITIES = [
     gender: "Homme",
     salary: "+",
     role: "Alternant",
-    photo: "/colleagues/edgar.png",
+    photo: "colleagues/edgar.png",
   },
   {
     id: 5,
@@ -62,7 +62,7 @@ export const ENTITIES = [
     gender: "Homme",
     salary: "++",
     role: "CDI",
-    photo: "/colleagues/gregory.png",
+    photo: "colleagues/gregory.png",
   },
   {
     id: 6,
@@ -75,7 +75,7 @@ export const ENTITIES = [
     gender: "Homme",
     salary: "++",
     role: "CDI",
-    photo: "/colleagues/herve.png",
+    photo: "colleagues/herve.png",
   },
   {
     id: 7,
@@ -88,7 +88,7 @@ export const ENTITIES = [
     gender: "Femme",
     salary: "+",
     role: "Alternant",
-    photo: "/colleagues/lauryn.png",
+    photo: "colleagues/lauryn.png",
   },
   {
     id: 8,
@@ -101,7 +101,7 @@ export const ENTITIES = [
     gender: "Femme",
     salary: "++",
     role: "CDI",
-    photo: "/colleagues/lorelei.png",
+    photo: "colleagues/lorelei.png",
   },
   {
     id: 9,
@@ -114,7 +114,7 @@ export const ENTITIES = [
     gender: "Homme",
     salary: "++",
     role: "CDI",
-    photo: "/colleagues/luc.png",
+    photo: "colleagues/luc.png",
   },
   {
     id: 10,
@@ -127,7 +127,7 @@ export const ENTITIES = [
     gender: "Homme",
     salary: "++++",
     role: "Direction",
-    photo: "/colleagues/ludovic.png",
+    photo: "colleagues/ludovic.png",
   },
   {
     id: 11,
@@ -140,7 +140,7 @@ export const ENTITIES = [
     gender: "Femme",
     salary: "+",
     role: "Alternant",
-    photo: "/colleagues/maria.png",
+    photo: "colleagues/maria.png",
   },
   {
     id: 12,
@@ -153,7 +153,7 @@ export const ENTITIES = [
     gender: "Homme",
     salary: "++",
     role: "CDI",
-    photo: "/colleagues/maxime.png",
+    photo: "colleagues/maxime.png",
   },
   {
     id: 13,
@@ -166,7 +166,7 @@ export const ENTITIES = [
     gender: "Homme",
     salary: "+",
     role: "Alternant",
-    photo: "/colleagues/nathan.png",
+    photo: "colleagues/nathan.png",
   },
   {
     id: 14,
@@ -179,7 +179,7 @@ export const ENTITIES = [
     gender: "Homme",
     salary: "++++",
     role: "Direction",
-    photo: "/colleagues/olivier.png",
+    photo: "colleagues/olivier.png",
   },
   {
     id: 15,
@@ -192,7 +192,7 @@ export const ENTITIES = [
     gender: "Femme",
     salary: "++",
     role: "CDI",
-    photo: "/colleagues/sandra.png",
+    photo: "colleagues/sandra.png",
   },
   {
     id: 16,
@@ -205,7 +205,7 @@ export const ENTITIES = [
     gender: "Homme",
     salary: "++",
     role: "CDI",
-    photo: "/colleagues/theo.png",
+    photo: "colleagues/theo.png",
   },
   {
     id: 17,
@@ -218,7 +218,7 @@ export const ENTITIES = [
     gender: "Femme",
     salary: "++",
     role: "CDI",
-    photo: "/colleagues/theresia.png",
+    photo: "colleagues/theresia.png",
   },
   {
     id: 18,
@@ -231,7 +231,7 @@ export const ENTITIES = [
     gender: "Homme",
     salary: "+",
     role: "Alternant",
-    photo: "/colleagues/wassim.png",
+    photo: "colleagues/wassim.png",
   },
   {
     id: 19,
@@ -244,7 +244,7 @@ export const ENTITIES = [
     gender: "Femme",
     salary: "++",
     role: "CDI",
-    photo: "/colleagues/zeineb.png",
+    photo: "colleagues/zeineb.png",
   },
   {
     id: 20,
@@ -257,7 +257,7 @@ export const ENTITIES = [
     gender : "Homme",
     salary : "++++",
     role : "Direction",
-    photo : "/colleagues/kirby.png",
+    photo : "colleagues/kirby.png",
   },
   {
     id : 21,
@@ -270,7 +270,7 @@ export const ENTITIES = [
     gender : "Homme",
     salary : "+",
     role : "Alternant",
-    photo : "/colleagues/nunu.png",
+    photo : "colleagues/nunu.png",
   }
 ];
 
