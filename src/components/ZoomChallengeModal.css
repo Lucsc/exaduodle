@@ -1,0 +1,226 @@
+.zoom-page {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: var(--bg);
+}
+
+.zoom-page__header {
+  padding: 16px 20px;
+  border-bottom: 1px solid var(--border);
+  background: var(--surface);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.zoom-page__back {
+  padding: 10px 16px;
+  border-radius: 10px;
+  border: 1px solid var(--border);
+  background: transparent;
+  color: var(--text);
+  font-weight: 600;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: all 0.15s;
+}
+
+.zoom-page__back:hover {
+  background: var(--surface-alt);
+  border-color: var(--primary);
+  color: var(--primary);
+}
+
+.zoom-page__main {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 32px 20px;
+}
+
+.zoom-panel {
+  width: min(860px, 100%);
+  max-width: 100%;
+}
+
+.zoom-modal__close-mobile {
+  display: none;
+}
+
+.zoom-modal__header {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.zoom-modal__eyebrow {
+  font-size: 0.78rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  color: var(--primary);
+  margin-bottom: 10px;
+}
+
+.zoom-modal__header h2 {
+  font-family: var(--font-display);
+  font-size: clamp(1.7rem, 4vw, 2.4rem);
+  line-height: 1.05;
+  margin-bottom: 10px;
+}
+
+.zoom-modal__header p {
+  color: var(--text-muted);
+  line-height: 1.6;
+}
+
+.zoom-stage {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.zoom-stage__frame {
+  position: relative;
+  aspect-ratio: 1 / 1;
+  max-width: 400px;
+  overflow: hidden;
+  border-radius: 24px;
+  background:
+    radial-gradient(circle at 20% 20%, rgba(249, 115, 22, 0.24), transparent 35%),
+    radial-gradient(circle at 80% 10%, rgba(26, 86, 219, 0.28), transparent 30%),
+    #08152f;
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.08);
+  margin: 0 auto;
+}
+
+.zoom-stage__image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.55s ease;
+  will-change: transform;
+}
+
+.zoom-stage__meta {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  font-size: 0.88rem;
+  color: var(--text-muted);
+  font-weight: 600;
+}
+
+.zoom-modal__search {
+  margin-top: 22px;
+}
+
+.zoom-modal__search .search-wrapper {
+  max-width: none;
+}
+
+.zoom-result {
+  margin-top: 22px;
+  padding: 18px 20px;
+  border-radius: 18px;
+  border: 1px solid var(--border);
+  background: rgba(255, 255, 255, 0.7);
+}
+
+.zoom-result--won {
+  border-color: rgba(22, 163, 74, 0.35);
+  background: rgba(22, 163, 74, 0.08);
+}
+
+.zoom-result--lost {
+  border-color: rgba(220, 38, 38, 0.25);
+  background: rgba(220, 38, 38, 0.08);
+}
+
+.zoom-result h3 {
+  font-size: 1rem;
+  margin-bottom: 6px;
+}
+
+.zoom-result p {
+  color: var(--text-muted);
+}
+
+.zoom-guesses-section {
+  margin-top: 28px;
+}
+
+.zoom-guesses-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.zoom-history {
+  margin-top: 20px;
+}
+
+.zoom-history__title {
+  font-size: 0.86rem;
+  font-weight: 700;
+  color: var(--text-muted);
+  margin-bottom: 10px;
+}
+
+.zoom-history__chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.zoom-history__chip {
+  padding: 8px 12px;
+  border-radius: 999px;
+  background: rgba(15, 26, 46, 0.08);
+  color: var(--text);
+  font-size: 0.84rem;
+  font-weight: 600;
+}
+
+.zoom-history__chip--correct {
+  background: rgba(22, 163, 74, 0.14);
+  color: #0d7a33;
+}
+
+@media (max-width: 640px) {
+  .zoom-page__main {
+    padding: 20px;
+  }
+
+  .zoom-modal__close-mobile {
+    display: block;
+    margin-bottom: 16px;
+  }
+
+  .zoom-modal__close {
+    position: relative;
+    width: auto;
+    height: auto;
+    top: auto;
+    right: auto;
+    background: transparent;
+    border: none;
+    font-size: 1.2rem;
+    cursor: pointer;
+  }
+
+  .zoom-stage__meta {
+    flex-direction: column;
+  }
+
+  .zoom-modal__search .search-bar {
+    flex-direction: column;
+  }
+
+  .zoom-modal__search .search-btn {
+    width: 100%;
+  }
+}

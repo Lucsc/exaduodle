@@ -1,0 +1,42 @@
+.action-footer {
+  width: 100%;
+  padding: 16px 20px;
+  border-top: 1px solid var(--border);
+  background: var(--surface);
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+}
+
+.action-footer__button {
+  border: none;
+  border-radius: 999px;
+  background: var(--primary);
+  color: #fff;
+  padding: 12px 24px;
+  font-size: 0.9rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.action-footer__button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 16px rgba(26, 86, 219, 0.3);
+}
+
+.action-footer__button:active {
+  transform: translateY(0);
+}
+
+@media (max-width: 640px) {
+  .action-footer {
+    padding: 12px 16px;
+  }
+
+  .action-footer__button {
+    width: 100%;
+    padding: 10px 16px;
+    font-size: 0.85rem;
+  }
+}
