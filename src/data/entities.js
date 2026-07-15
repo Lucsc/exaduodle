@@ -283,7 +283,7 @@ export const ENTITIES = [
     gender : "Homme",
     salary : "++++",
     role : "Direction",
-    photo : "/colleagues/ludovier.png",
+    photo : "colleagues/ludovier.png",
   }
 ];
 
