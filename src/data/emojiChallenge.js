@@ -1,16 +1,16 @@
 import { EMOJIS } from "./emojis";
-import { ENTITIES } from "./entities";
 
-const MAX_EMOJI_GUESSES = 6;
-const MIN_FOCUS_POINT = 18;
-const MAX_FOCUS_POINT = 82;
 
-function randomIndex(max) {
-  return Math.floor(Math.random() * max);
+function getDaySeed() {
+  const today = new Date();
+  const dayOfYear = Math.floor(
+    (today - new Date(today.getFullYear(), 0, 0)) / (1000 * 60 * 60 * 24)
+  );
+  return (today.getFullYear() * 1000 + dayOfYear) >>> 0;
 }
 
-function randomPercent(min, max) {
-  return Math.floor(Math.random() * (max - min + 1)) + min;
+function lcgNext(s) {
+  return ((s * 1664525 + 1013904223) & 0xffffffff) >>> 0;
 }
 
 /**
@@ -50,7 +50,8 @@ export function createRandomEmojiChallenge(entities, excludedIds = []) {
     return null;
   }
 
-  const target = availableCandidates[randomIndex(availableCandidates.length)];
+  const seed = lcgNext(getDaySeed() * 7);
+  const target = availableCandidates[seed % availableCandidates.length];
   const emojiData = EMOJIS.find((emoji) => emoji.id === target.id);
   
   if (!emojiData) {

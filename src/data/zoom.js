@@ -247,18 +247,32 @@ export const PICTURES = [
             },
         ],
     },
+    {
+        entityId: 20,
+        name: "Ludovier",
+        variations: [
+            {
+                dark: "zoom/ludovier/ludovier_background_dark.png",
+                clear: "zoom/ludovier/ludovier_background_clear.png",
+            }
+        ]
+    }
 ];
 
 const INITIAL_ZOOM_SCALE = 3;
 const MIN_FOCUS_POINT = 26;
 const MAX_FOCUS_POINT = 82;
 
-function randomIndex(length) {
-    return Math.floor(Math.random() * length);
+function getDaySeed() {
+    const today = new Date();
+    const dayOfYear = Math.floor(
+        (today - new Date(today.getFullYear(), 0, 0)) / (1000 * 60 * 60 * 24)
+    );
+    return (today.getFullYear() * 1000 + dayOfYear) >>> 0;
 }
 
-function randomPercent(min, max) {
-    return Math.round(min + Math.random() * (max - min));
+function lcgNext(s) {
+    return ((s * 1664525 + 1013904223) & 0xffffffff) >>> 0;
 }
 
 export function getZoomCandidates(entities) {
@@ -278,16 +292,22 @@ export function createRandomZoomChallenge(entities, excludedIds = []) {
         return null;
     }
 
-    const target = availableCandidates[randomIndex(availableCandidates.length)];
+    let seed = lcgNext(getDaySeed() * 3);
+    const target = availableCandidates[seed % availableCandidates.length];
     const pictureSet = PICTURES.find((picture) => picture.entityId === target.id);
-    const variation = pictureSet.variations[randomIndex(pictureSet.variations.length)];
+    seed = lcgNext(seed);
+    const variation = pictureSet.variations[seed % pictureSet.variations.length];
+    seed = lcgNext(seed);
+    const focusX = MIN_FOCUS_POINT + (seed % (MAX_FOCUS_POINT - MIN_FOCUS_POINT + 1));
+    seed = lcgNext(seed);
+    const focusY = MIN_FOCUS_POINT + (seed % (MAX_FOCUS_POINT - MIN_FOCUS_POINT + 1));
 
     return {
         entityId: target.id,
         darkSrc: variation.dark,
         clearSrc: variation.clear,
-        focusX: randomPercent(MIN_FOCUS_POINT, MAX_FOCUS_POINT),
-        focusY: randomPercent(MIN_FOCUS_POINT, MAX_FOCUS_POINT),
+        focusX,
+        focusY,
         initialScale: INITIAL_ZOOM_SCALE,
     };
 }

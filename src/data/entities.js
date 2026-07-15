@@ -271,6 +271,19 @@ export const ENTITIES = [
     salary : "+",
     role : "Alternant",
     photo : "colleagues/nunu.png",
+  },
+  {
+    id : 22,
+    name : "Ludovier",
+    size : 200,
+    team : "Sales",
+    age : 50,
+    eyeColor : "Marron",
+    joinYear : 2010,
+    gender : "Homme",
+    salary : "++++",
+    role : "Direction",
+    photo : "/colleagues/ludovier.png",
   }
 ];
 
